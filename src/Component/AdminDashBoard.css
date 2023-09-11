@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#dashboard{
+    width: 100%;
+    height: 85vh;
+    /* border: 2px solid red; */
+    display: flex;
+
+}
+/********************SideBar*********************/
+#sidebar{
+    
+    width: 30%; 
+    text-indent: 3vw;
+}
+#admintask{
+    line-height: 5vh;
+}
+#admintask button{
+width: 22vw;
+
+ line-height: 3vh; 
+border-radius: 5vw;
+}
+#slink{
+    text-decoration: none;
+}
+
+/************************* MainBar*************************************/
+#mainbar{
+    width: 70%;
+    /* border: 2px solid red; */
+    background-image: url(https://cdn.pixabay.com/photo/2013/04/03/21/25/flower-100263_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 70vw 90vh;
+    
+
+}
+
+#admintask li,h{
+
+    line-height: 8vh;
+}
+#sidebar1{
+    height: 85vh;
+    background-color: burlywood;
+}
+/**********************ViewAcademyManagers*************************/
+#viewAcademyManagers{
+
+width: 100%;
+height: 85vh;
+/* border: 2px solid green; */
+display: flex;
+justify-content: space-evenly;
+background-image: url(https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_640.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#mangercart{
+width: 28vw;
+height: 22vh;
+font-size: 3.5vmin;
+line-height: 3vw;
+/* border: 2px solid palevioletred; */
+
+}
+
+/*****************View.jsx (view1 )  ************************ */
+
+#mainview{
+width: 100%;
+height: 86.5vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-image: url(https://cdn.pixabay.com/photo/2013/11/03/08/05/cheers-204742_1280.jpg);
+background-repeat: no-repeat;
+background-size: 100vw 90vh;
+}
+#view{
+    width:40vw ;
+    font-size: x-large;
+    line-height: 5vh;
+    margin-bottom: 10vw;
+    margin-left: 10vw;
+    color: white;
+   
+   
+}
+#addAcademyButton{
+    width:30vw ;
+}
+#button1{
+display: flex;
+
+}
+.button{
+   
+ margin: 2vw;
+    width:15vw;
+    height: 4vh;
+
+    border-radius: 15px;
+}
+
+/*************************AddAcademy Manager**********************/
+
+#register1{
+    display: flex;
+    justify-content: flex-end;
+   margin-right: 10vw;
+    margin-top: 20vh;
+    line-height: 5vh;
+    
+}
+#input{
+    width: 25vw;
+    border-radius: 9px;
+    line-height: 7vh;
+    
+}
+#register1 button{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 2vw;
+}
+/***********************************update*/
+
+#update{
+    width: 100%;
+    height: 86.5vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/25/10/43/ballerina-4362282_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    line-height: 5vh;
+   
+    }
+    #updateform{
+        margin-bottom: 10vh;
+       
+    }
+    #updateform input{
+      
+        border-radius: 2vw;
+    }
+    /***********************View Academy*************/
+    #viewAcademytab{
+        width: 30vw;
+        /* height: 20vh; */
+        color: black;
+        border: 2px solid red;
+        
+    }

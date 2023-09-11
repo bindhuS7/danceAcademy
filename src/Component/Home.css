@@ -1,0 +1,390 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}  */
+/* body,html{
+    overflow-x: hidden;
+} */
+/* header{ 
+    height:100vh ;
+    width: 100vw;
+    
+    background-image: url("https://cdn.pixabay.com/photo/2019/03/30/15/47/star-4091406_640.jpg");
+    
+    background-size: 100vw 90vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } 
+
+.header-content h2{
+font-size: 4vmin; 
+}
+*/
+
+
+
+/* EVENTS */
+
+
+/* section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: blue;
+     margin: -5vh;
+    margin-bottom: 4vh;
+}
+ */
+
+/* events */
+/* .row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.col {
+   
+    height: 100%;
+    width: 31%;
+
+} */
+/* .col img{
+    height: 400px;
+    width: 100%;
+}  */
+  
+
+/* h4{
+    font-size: 3vmin;
+    color: brown;
+    margin: 5vw auto;
+
+}  */
+
+
+
+
+
+/* @media only screen and  (max-width:426px
+){
+    .row{
+       
+        flex-direction: column;
+       
+    }
+    .col {
+   
+        
+        width: 100%;
+        padding-bottom: 20px;
+    
+    }
+}
+
+
+
+
+ */
+
+
+/* section3 */
+
+/* #explore img{
+    width: 100%;
+    height: 85vh;
+} */
+
+
+/* section4 */
+
+/* #type4{
+width: 100%;
+
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+
+
+}
+.diffdance{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+   
+    margin: 3vw auto;
+}
+.imag4{
+width: 40%;
+
+}
+#img4{
+    width: 20vw;
+} */
+
+
+
+/***********************NEW HOME PAGE*********************/
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+} 
+
+/********HOME***/
+.home{
+    width: 100%;
+    height: 86.5vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url("https://cdn.pixabay.com/photo/2019/03/20/14/58/fantasy-4068726_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 86.5vh;
+    
+}
+.home .content{
+    width: 60vw;
+    height: 60vh;
+    font-size: 3vmin;
+    /* line-height: 0.8; */
+    /* border: 2px solid red; */
+    margin-left: 5vw;
+}
+#quote{
+    color: wheat;
+    margin-left: 10vw;
+}
+/*************************ABOUT****************/
+.about{
+    width: 100%;
+    height: 70vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.heading{
+    width: 100%;
+    font-size: 4vmin;
+    font-weight: 800;
+   /* border: 2px solid red; */
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+.row{
+    width: 100%;
+    height: 40vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content:space-around ;
+}
+.image{
+    width: 45%;
+    height: 40vh;
+    /* border:2px solid green; */
+    display: flex;
+    justify-content: end;
+    /* margin-left: 10vw; */
+}
+.image img{
+    width: 65%;
+    height: 45vh;
+}
+.content{
+    width: 35%;
+    height: 40vh;
+    /* border:2px solid green; */
+    font-size: 2vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.row .content h3{
+    font-size: 3vmin;
+}
+.about .content h3{
+    color:red;
+}
+/***************OUR Courses*****************/
+.ourcourse{
+    width: 100%;
+    /* border:2px solid green; */
+    height: 100vh;
+    display: flex;
+    justify-content:space-evenly ;
+    /* background-image: url("https://cdn.pixabay.com/photo/2014/01/23/21/33/pink-250774_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; */
+    align-items: center;
+    flex-direction: column;
+}
+.ourcourse .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.row{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20vh;
+}
+.box{
+    width: 30%;
+    height: 45vh;
+    /* border: 2px solid red; */
+    transition: 1s;
+}
+.box:hover{
+    transform: scale(1.3);
+}
+#red{
+    color: red;
+}
+#yellow{
+    color: rgb(216, 216, 12);
+}
+
+
+
+
+
+
+
+
+
+
+/*********************footer**********************/
+.footer{
+width: 100%;
+height: 40vh;
+
+display: flex;
+background-color: burlywood;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+
+}
+.footer1{
+    width: 90%;
+    height: 10vh;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.media-icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+
+    /* border: 2px solid black; */
+}
+.ourcourse .content{
+    margin-bottom: 35vh;
+}
+.media{
+  
+    transition: 1s;
+}
+.media:hover{
+    transform: scale(2.3);
+}
+.media-icons .facebook{
+    color: skyblue;
+}
+.media-icons .twitter{
+    color: darkblue;
+}
+.media-icons .insta{
+    color:deeppink;
+}
+.media-icons .youtube{
+    color:red;
+}
+
+.footer2{
+    width: 90%;
+    height: 15vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 3vmin;
+   
+}
+.subfooter2{
+    width: 22.5%;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.footer3{
+    font-size: 3vmin;
+}
+.footer h5{
+    color: red;
+}
+
+/********************Media queries************/
+@media only screen and  (max-width:426px
+){
+    .about{
+        height: 100vh;
+        justify-content: space-evenly;
+    }
+   .row{
+       
+       flex-direction: column;
+      
+    } 
+    
+    .content{
+        margin-top: 10vw;
+        font-size: 2vmin;
+    }
+    #maindiv{
+        
+       
+      height: 10vh;  
+       background-color: black;  
+    }
+    .box img{
+        width: 70vw;
+        height: 30vh;
+    }
+    .ourcourse{
+        justify-content: space-between;
+    }
+    .box{
+        width: 80%;
+       position: relative;
+       bottom: 20vh;
+    }
+    .footer{
+        height: 60vh;
+        justify-content: space-between;
+    }
+    .footer2{
+        flex-direction: column;
+      padding: 10px;
+     position: relative;
+     bottom: 15vh;
+     line-height: 2.5vh;
+     font-size: 4.3vw;
+    }
+
+}

@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#maindiv{
+    height: 95px;
+    width: 100vw;
+   
+    display: flex;
+   background-color: black;
+   
+    justify-content: center;
+   
+}
+#maindiv1{
+    height: 95px;
+    width: 100vw;
+   
+    display: flex;
+     justify-content: space-between; 
+    align-content: space-around;
+    align-items: center;
+  
+}
+#logo{
+    width: 25vw;
+    height: 10vh;
+    
+/* border: 2px solid red; */
+    color: wheat;
+} 
+#logo1{
+    position: relative;
+/* top: 1vh; */
+left: 1vw;
+    height: 8vh;
+    /* border: 2px solid greenyellow; */
+    border-radius: 50vw;
+}
+#menu{
+    width: 55vw;
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: 4vmin;
+    justify-content: space-evenly;
+    /* align-content: space-evenly; */
+
+}
+.link{
+    color: white;
+    font-style:italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-decoration: none;
+}
+@media only screen and  (max-width:426px
+){
+    #maindiv1{
+       flex-direction: column;
+      
+    } 
+    #maindiv{
+        
+       
+      height: 10vh;  
+       background-color: black;
+      
+        
+       
+    }
+
+}
