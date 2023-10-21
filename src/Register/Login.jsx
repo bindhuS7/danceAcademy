@@ -30,9 +30,10 @@ const Login = () => {
     e.preventDefault();
     console.log(state);
     let payload={userEmail,password};
+    try{
    let {data}=await axiosInstance.post("/authenticate",payload);
    localStorage.setItem("userEmail",userEmail);
-  //  alert("login successfull");
+  //  alert("login successful");
  
    console.log(data);
    
@@ -41,13 +42,12 @@ const Login = () => {
    if(token){
    window.localStorage.setItem("token",token);
    window.localStorage.setItem("role",role);
-   alert(`${userEmail} logged in sucessfully`);
+   alert(`${userEmail} logged in successfully`);
    navigate('/');
-   }else{
-    window.localStorage.removeItem("token",token);
-   window.localStorage.removeItem("role",role);
    }
-
+  }catch(err){
+    alert("login failed")
+  }
 
   }
   return (<div id="login">
