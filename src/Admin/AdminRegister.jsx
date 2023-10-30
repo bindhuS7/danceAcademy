@@ -3,8 +3,7 @@ import axiosInstance from '../Helper/AxiosInstance';
  import { useNavigate } from 'react-router-dom';
 import {AiFillEyeInvisible,AiFillEye } from "react-icons/ai";
 import "../Component/Register.css"
-// import { ToastContainer,toast } from 'react-toastify';
-// import "react-toastify/dist/ReactToastify.css"
+
 
 const AdminRegister = () => {
 
@@ -39,19 +38,11 @@ const AdminRegister = () => {
     console.log(payload);
     await axiosInstance.post("/admins/save",payload);
     navigate("/login");
-    // toast.success("data inserted successfull",{position:toast.POSITION.TOP})
+    
 
 }catch(error){
     alert(error.code)
 }
-setState({
-    username:"",
-    email:"",
-    password:"",
-    gender:"",
-    phonenum:"",
-    dob:""
-})
 
     }
 
@@ -77,7 +68,7 @@ setState({
            
            </td></tr>
            <tr><td>DOB:<input type="date" name="dob" className='inputhw' required onChange={handleChange}/></td></tr>
-<tr><td><button type='submit' onClick={handleSubmit}>SIGNUP</button></td></tr>
+<tr><td><button type='submit' onClick={handleSubmit}> SignUp </button></td></tr>
         </table>
       
     </form>

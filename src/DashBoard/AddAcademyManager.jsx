@@ -44,7 +44,7 @@ await axiosInstance.post("/academymanagers/save",payload,{headers:{
 
 
 navigate("/admindashboard/viewAcademyManager");
-toast.success("data inserted successfull",{position:toast.POSITION.TOP})
+toast.success("data inserted Successfully",{position:toast.POSITION.TOP})
 
 }catch(error){
   if(error){
@@ -84,7 +84,7 @@ dob:""
            
            </td></tr>
            <tr><td>DOB<input id='input' type="date" name="dob" className='inputhw' required onChange={handleChange}/></td></tr>
-<tr><td><button type='submit' onClick={handleSubmit}>SIGNUP</button></td></tr>
+<tr><td><button type='submit' onClick={handleSubmit}>SignUp</button></td></tr>
         </table>
        {/* </fieldset> */}
     </form>

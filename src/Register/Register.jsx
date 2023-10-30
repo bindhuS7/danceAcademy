@@ -3,8 +3,7 @@ import axiosInstance from '../Helper/AxiosInstance';
  import { useNavigate } from 'react-router-dom';
 import {AiFillEyeInvisible,AiFillEye } from "react-icons/ai";
 import "../Component/Register.css"
-import { ToastContainer,toast } from 'react-toastify';
-import "react-toastify/dist/ReactToastify.css"
+
 const Register = () => {
 
     let [state,setState]=useState({
@@ -37,20 +36,12 @@ const Register = () => {
     console.log(payload);
     await axiosInstance.post("/users/save",payload);
     navigate("/login");
-    toast.success("data inserted successfull",{position:toast.POSITION.TOP})
-
+  
 }catch(error){
     console.log(error);
     alert("enter Proper details")
 }
-setState({
-    username:"",
-    email:"",
-    password:"",
-    gender:"",
-    phonenum:"",
-    dob:""
-})
+
 
     }
 
@@ -58,7 +49,7 @@ setState({
     
     return (
         <div id="register">
-            <ToastContainer/>
+          
     <form action="" method='post' >
       
         <legend><i>Register</i></legend>
