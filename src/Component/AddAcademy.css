@@ -22,8 +22,10 @@ align-items: center;
     line-height: 7vh;
 }
 #addAcademy button{
-    width: auto;
-    border-radius: 5vw;
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 5vh;
 }
 
 /***************View Branch**********/
@@ -31,6 +33,7 @@ align-items: center;
 #viewBranch {
     width: 100%;
     height: 85vh;
+   
     /* border: 2px solid green; */
     /* display: flex;
     justify-content: space-evenly; */
@@ -40,12 +43,21 @@ align-items: center;
 }
 #viewBranch h1{
     margin-left: 5vw;
+    font-size: 3vmin;
+
 }
 
 #viewBranch table{
     margin: 5vw;
     width: 55vw;
     height: 5vh;
+    font-size: 2vmin;
+}
+#viewBranch button{
+    font-size: 2vmin;
+    background-color: transparent;
+color: black;
+border: none;
 }
 /*******************ViewCourse******************/
 #viewCourse {
@@ -66,6 +78,12 @@ align-items: center;
     margin: 5vw;
     width: 55vw;
     height: 5vh;
+}
+#viewCourse button{
+    font-size: 2vmin;
+    background-color: transparent;
+color: black;
+border: none;
 }
 /***********AddBranch******************/
 #addBranch{
@@ -91,8 +109,9 @@ align-items: center;
     
 }
  #addBranch button{
-width: 10vw;
-border-radius: 1vw;
+background-color: transparent;
+color: white;
+border: none;
 }
 /*************************UpdateBranch*/
 
@@ -120,10 +139,16 @@ border-radius: 1vw;
 #UpdateBranch table{
     margin-bottom:10vh ;
 }
+#UpdateBranch button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
 /******************View Academy***/
 #ViewAcademy{
     width: 100%;
     height: 85vh;
+   
     /* border: 2px solid green; */
     /* display: flex;
     justify-content: space-evenly; */
@@ -135,6 +160,7 @@ border-radius: 1vw;
 }
 #ViewAcademy h1{
 margin-left: 6vw;
+font-size: 3vmin;
 }
 #ViewAcademy input{
     width: 25vw;
@@ -147,7 +173,14 @@ margin-left: 6vw;
 #ViewAcademy table{
     margin: 5vw;
     width: 55vw;
+    font-size: 1.8vmin;
     height: 5vh;color: aliceblue;
+}
+#ViewAcademy button{
+font-size: 1.5vmin;
+background-color: transparent;
+color: white;
+border: none;
 }
 /************************UpdateAcademy*/
 
@@ -176,6 +209,10 @@ margin-left: 6vw;
     margin-right: 50vw;
     
 }
+#updateAcademy button{
+border: none;
+background-color: transparent;
+}
 /**************UPDATE COURSE*************/
 #updateCourse{
     width: 100vw;
@@ -197,6 +234,11 @@ margin-left: 6vw;
     margin: .5vh;
     border-radius: 2vw;
     
+}
+#updateCourse button{
+    background-color: transparent;
+    border: none;
+    color: white;
 }
 /**************AddCourse***/
 #addCourse{
@@ -220,6 +262,31 @@ margin-left: 6vw;
     border-radius: 2vw;
     
 }
+#addCourse button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
 #addCourse table{
     margin-bottom: 55vh;
+}
+@media only screen and (max-width:670px){
+    #viewBranch table{
+        font-size: 9px;
+    }
+    #viewBranch  table button{
+       font-size: 9px;
+    }
+    #viewCourse {
+        font-size: 9px;
+    }
+    #viewCourse button{
+        font-size: 9px;
+     }
+     #ViewAcademy table{
+        font-size: 9px;
+    }
+    #ViewAcademy button{
+        font-size: 9px;
+     }
 }

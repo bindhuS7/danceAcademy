@@ -73,7 +73,7 @@ const UpdateCourse = () => {
                    <td> <input type="text" name='type' placeholder='typeOfDance' onChange={handlechange} value={type}/></td>
                 </tr>
                 <tr>
-                    <td><button type='submit' onClick={handleSubmit} >Submit</button></td>
+                    <td><button type='submit' onClick={handleSubmit} ><i>Submit</i></button></td>
                 </tr>
             </table>
         </form>

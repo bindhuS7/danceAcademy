@@ -79,7 +79,7 @@ const UpdateBranch = () => {
 
           <tr>
             
-            <td><button type='submit' onClick={handleSubmit}>Submit</button></td>
+            <td><button type='submit' onClick={handleSubmit}><i>Submit</i></button></td>
           </tr>
         </table>
       </form>

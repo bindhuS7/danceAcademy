@@ -55,8 +55,8 @@ let token=localStorage.getItem("token");
 <td>{e.description}</td>
 <td>{e.email}</td>
 <td><button onClick={()=>{handleDelete(e.id)}}>Delete</button></td>
-<td><button><Link to={`/AddBranch/${e.id}`}>Add Branch</Link></button></td>
-<td><button><Link to={`/UpdateAcademy/${e.id}`}>Edit</Link></button></td>
+<td><Link to={`/AddBranch/${e.id}`}><button>Add Branch</button></Link></td>
+<td><Link to={`/UpdateAcademy/${e.id}`}><button>Edit</button></Link></td>
 </tr>
       )
     })}

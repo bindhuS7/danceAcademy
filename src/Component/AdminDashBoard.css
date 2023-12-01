@@ -40,8 +40,8 @@ border-radius: 5vw;
 
 }
 
-#admintask li,h{
-
+#admintask li,h1,button{
+font-size: 3vmin;
     line-height: 8vh;
 }
 #sidebar1{
@@ -60,6 +60,7 @@ background-image: url(https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-335846
 background-repeat: no-repeat;
 background-size: cover;
 }
+
 #mangercart{
 width: 28vw;
 height: 22vh;
@@ -67,6 +68,11 @@ font-size: 3.5vmin;
 line-height: 3vw;
 /* border: 2px solid palevioletred; */
 
+}
+#mangercart button{
+    background-color: transparent;
+    border: none;
+    color: white;
 }
 
 /*****************View.jsx (view1 )  ************************ */
@@ -105,8 +111,9 @@ display: flex;
  margin: 2vw;
     width:15vw;
     height: 4vh;
-
-    border-radius: 15px;
+    color: white;
+background-color: transparent;
+    border: none;
 }
 
 /*************************AddAcademy Manager**********************/
@@ -128,7 +135,9 @@ display: flex;
 #register1 button{
     width: 10vw;
     height: 4vh;
-    border-radius: 2vw;
+    border:none;
+    color: blue;
+    background-color: transparent;
 }
 /***********************************update*/
 

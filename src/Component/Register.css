@@ -17,6 +17,11 @@
 align-content: center;
    
 }
+#register button{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
 
 #register #eye{
     position: relative;
@@ -78,6 +83,11 @@ flex-direction: column;
     /* line-height: 35px;  */
     
 }
+#adminRegister button{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
 .inputhw{
     width: 30vw;
     height: 4vh;
@@ -105,6 +115,11 @@ align-content: center;
 align-content: center;
 flex-direction: column;
     line-height: 5vh; 
+}
+#login button{
+    background-color: transparent;
+    border: none;
+    color: black;
 }
 #eye{
     position: relative;

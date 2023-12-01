@@ -43,9 +43,9 @@ let handleDelete= async (id)=>{
       <h6>Age:{state.age}</h6>
       <h6>Gender :{state.gender}</h6>
       <div id='button1'>
-      <button  className='button'> <Link id='slink' to={`/Update/${state.id}`}>Update</Link></button>
+       <Link id='slink' to={`/Update/${state.id}`}><button  className='button'>Update</button></Link>
      <button  className='button' onClick={()=>{handleDelete(state.id)}}>Delete</button>
-     <button className='button'id='addAcademyButton'> <Link id='slink' to={`/Addacademy/${state.id}`}>Add Academy</Link></button>
+     <Link id='slink' to={`/Addacademy/${state.id}`}><button className='button'id='addAcademyButton'> Add Academy</button></Link>
      </div>
      </div>
      </div>

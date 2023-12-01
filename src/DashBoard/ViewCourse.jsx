@@ -46,7 +46,7 @@ let token=localStorage.getItem("token");
     <div id="viewCourse">
     <h1 >View Course</h1>
     
-    <table  cellPadding={2} cellSpacing={5} border={3} >
+    <table  cellPadding="2vmin" cellSpacing={5} border={3} >
       <tr><th>Course Id</th><th>Duration</th><th>fee</th><th>DanceType</th><th>Delete</th><th>Edit</th></tr>
     {state.map((e)=>{
       return(
@@ -58,7 +58,7 @@ let token=localStorage.getItem("token");
 
 <td>{e.type}</td>
 <td><button onClick={()=>{handleDelete(e.id)}}>Delete</button></td>
-<td><button><Link to={`/UpdateCourse/${e.id}`}>Edit</Link></button></td>
+<td><Link to={`/UpdateCourse/${e.id}`}><button>Edit</button></Link></td>
 
 </tr>
       )

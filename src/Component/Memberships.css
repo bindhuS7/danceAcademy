@@ -17,8 +17,10 @@ align-items: center;
 #membershipButtons button{
     width: 15vw;
     height: 5vh;
-    border-radius: 2vw;
-   /* color: black; */
+    border: none;
+    background-color: transparent;
+
+   color: white;
     font-size: 3vmin;
 }
 /******************ViewMembershipbyAdmin**********/
@@ -54,8 +56,12 @@ align-items: center;
 
 #MembershipviewBranch table{
     margin: 5vw;
-    width: 55vw;
+    width: 50%;
     height: 5vh;
+}
+#MembershipviewBranch button{
+    background-color: transparent;
+    border: none;
 }
 /*************************View Course for Register Memebehip ******************************/
 #viewcourseforRegister{
@@ -80,10 +86,18 @@ align-items: center;
     width: 55vw;
     height: 5vh;
 }
+#viewcourseforRegister button{
+   
+   background-color: transparent;
+   border: none;
+   color: white;
+}
 /*******************View Membership Based On UserId***********************/
 #viewMembershipBasedOnUserId{
     width: 100%;
     height: 85vh;
+  
+    /* font-size: 3vmin; */
     /* border: 2px solid green; */
     display: flex;
     justify-content: space-evenly;
@@ -93,15 +107,27 @@ align-items: center;
     background-repeat: no-repeat;
     background-size: 100vw 85vh;
     
-    font-size: larger;
+    /* font-size: larger; */
 }
 #viewMembershipBasedOnUserId h1{
  color: black;
     /* margin-left: 5vw; */
 }
 
-#viewMembershipBasedOnUserId table{
-    margin: 5vw;
-    width: 55vw;
-    height: 5vh;
+#viewMembershipBasedOnUserId table td{
+    /* margin: 5vw;
+    width: 55vw; */
+    font-size: 2vmin;
+    /* height: 5vh; */
+}
+
+@media only screen and  (max-width:630px){
+    #MembershipviewBranch{
+        font-size: 2.5vmin;
+        
+    }
+    #MembershipviewCourse{
+        font-size: 2.5vmin;
+    }
+   
 }

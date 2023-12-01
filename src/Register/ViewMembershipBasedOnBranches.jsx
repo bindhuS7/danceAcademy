@@ -30,7 +30,7 @@ ViewData();
     <div id='membershipButtons'>
       {branch.map((e)=>{
         return(
-           <button> <Link to={`/ViewMemebershipByAdmin/${e.id}`}>{e.id}</Link></button>
+            <Link to={`/ViewMemebershipByAdmin/${e.id}`}><button>{e.id}</button></Link>
         )
     })}
     </div>

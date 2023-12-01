@@ -41,7 +41,7 @@ try{
   return (
     <div id="addAcademy">
 <form action="" method='post'>
-    <legend>Add Academy</legend>
+    <legend style={{color:"black" }}><b>Add Academy</b></legend>
     <table>
     <tr>
         <td> 
@@ -69,7 +69,7 @@ try{
    
        <tr>
         <td>
-            <button onClick={handleSubmit}>add Academy</button>
+            <button onClick={handleSubmit}  >add Academy</button>
         </td>
        </tr>
     </table>

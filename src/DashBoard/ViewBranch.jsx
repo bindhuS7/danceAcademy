@@ -33,7 +33,7 @@ let token=localStorage.getItem("token");
     }
     catch(error){
       console.log(error);
-      alert("untill academy deleted branch can't be deleted");
+      alert("unTill academy deleted branch can't be deleted");
     }
   }
   // await axiosInstance.delete(`academies/delete/${id}`);
@@ -53,8 +53,8 @@ let token=localStorage.getItem("token");
 <td>{e.phone}</td>
 <td>{e.pincode}</td>
 <td><button onClick={()=>{handleDelete(e.id)}}>Delete</button></td>
-<td><button><Link to={`/AddCourse/${e.id}`}>Add Course</Link></button></td>
-<td><button><Link to={`/UpdateBranch/${e.id}`}>Edit</Link></button></td>
+<td><Link to={`/AddCourse/${e.id}`}><button>Add Course</button></Link></td>
+<td><Link to={`/UpdateBranch/${e.id}`}><button>Edit</button></Link></td>
 </tr>
       )
     })}

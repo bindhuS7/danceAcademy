@@ -22,12 +22,6 @@ const ViewMemebershipByAdmin = () => {
     },[])
   
   
-    
-  
-
-    
-
-
   return (
     <div id="viewMembershipByAdmin">
     <h1 >View MemeberShip</h1>
